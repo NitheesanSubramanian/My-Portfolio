@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="irisBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091419" />
+      <stop offset="100%" stop-color="#03080b" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#irisBg)" />
+  <!-- Graph Axes -->
+  <line x1="120" y1="360" x2="720" y2="360" stroke="#334155" stroke-width="2" />
+  <line x1="120" y1="360" x2="120" y2="80" stroke="#334155" stroke-width="2" />
+  <text x="720" y="390" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" text-anchor="end">Petal Length (cm) →</text>
+  <text x="90" y="80" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" transform="rotate(-90, 90, 80)">Petal Width (cm) →</text>
+  <!-- Cluster 1: Setosa (Blue) -->
+  <circle cx="200" cy="310" r="8" fill="#3b82f6" />
+  <circle cx="220" cy="290" r="8" fill="#3b82f6" />
+  <circle cx="180" cy="320" r="8" fill="#3b82f6" />
+  <circle cx="240" cy="330" r="8" fill="#3b82f6" />
+  <circle cx="210" cy="300" r="8" fill="#3b82f6" />
+  <!-- Cluster 2: Versicolor (Purple) -->
+  <circle cx="430" cy="230" r="8" fill="#a855f7" />
+  <circle cx="450" cy="210" r="8" fill="#a855f7" />
+  <circle cx="410" cy="250" r="8" fill="#a855f7" />
+  <circle cx="470" cy="220" r="8" fill="#a855f7" />
+  <circle cx="440" cy="240" r="8" fill="#a855f7" />
+  <!-- Cluster 3: Virginica (Emerald) -->
+  <circle cx="620" cy="140" r="8" fill="#10b981" />
+  <circle cx="640" cy="120" r="8" fill="#10b981" />
+  <circle cx="660" cy="150" r="8" fill="#10b981" />
+  <circle cx="600" cy="130" r="8" fill="#10b981" />
+  <circle cx="630" cy="160" r="8" fill="#10b981" />
+  <!-- Legend card -->
+  <rect x="140" y="70" width="220" height="90" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" />
+  <circle cx="160" cy="95" r="5" fill="#3b82f6" />
+  <text x="175" y="99" fill="#93c5fd" font-family="'Inter', sans-serif" font-size="12">Iris-setosa</text>
+  <circle cx="160" cy="115" r="5" fill="#a855f7" />
+  <text x="175" y="119" fill="#d8b4fe" font-family="'Inter', sans-serif" font-size="12">Iris-versicolor</text>
+  <circle cx="160" cy="135" r="5" fill="#10b981" />
+  <text x="175" y="139" fill="#6ee7b7" font-family="'Inter', sans-serif" font-size="12">Iris-virginica</text>
+  <!-- Accuracy Banner -->
+  <rect x="520" y="60" width="220" height="40" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1" />
+  <text x="630" y="85" fill="#a7f3d0" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" text-anchor="middle">KNN Accuracy: 97.3%</text>
+</svg>

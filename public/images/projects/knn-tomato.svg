@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="knnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140a0e" />
+      <stop offset="100%" stop-color="#080406" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#knnBg)" />
+  <!-- Grid Axes -->
+  <line x1="120" y1="360" x2="700" y2="360" stroke="#475569" stroke-width="2" />
+  <line x1="120" y1="360" x2="120" y2="80" stroke="#475569" stroke-width="2" />
+  <text x="700" y="390" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" text-anchor="end">Sweetness Brix →</text>
+  <text x="90" y="80" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" transform="rotate(-90, 90, 80)">Crunchiness Index →</text>
+  <!-- Decision Boundary Line -->
+  <path d="M 160,320 C 300,300 400,200 660,110" fill="none" stroke="#f43f5e" stroke-width="2" stroke-dasharray="6,4" />
+  <!-- Cluster A: Premium Tomatoes (Green) -->
+  <circle cx="520" cy="150" r="9" fill="#10b981" />
+  <circle cx="560" cy="180" r="9" fill="#10b981" />
+  <circle cx="610" cy="140" r="9" fill="#10b981" />
+  <circle cx="480" cy="170" r="9" fill="#10b981" />
+  <circle cx="580" cy="120" r="9" fill="#10b981" />
+  <!-- Cluster B: Standard Tomatoes (Red/Orange) -->
+  <circle cx="220" cy="290" r="9" fill="#ef4444" />
+  <circle cx="260" cy="270" r="9" fill="#ef4444" />
+  <circle cx="300" cy="310" r="9" fill="#ef4444" />
+  <circle cx="190" cy="250" r="9" fill="#ef4444" />
+  <circle cx="270" cy="330" r="9" fill="#ef4444" />
+  <!-- Query Sample (Unknown) -->
+  <circle cx="380" cy="220" r="14" fill="#fbbf24" stroke="#ffffff" stroke-width="3" />
+  <text x="380" y="225" fill="#000000" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="800" text-anchor="middle">?</text>
+  <!-- KNN radius circles -->
+  <circle cx="380" cy="220" r="70" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,4" />
+  <line x1="380" y1="220" x2="480" y2="170" stroke="#38bdf8" stroke-width="1.5" />
+  <line x1="380" y1="220" x2="300" y2="310" stroke="#38bdf8" stroke-width="1.5" />
+  <line x1="380" y1="220" x2="260" y2="270" stroke="#38bdf8" stroke-width="1.5" />
+  <!-- Metric Badge -->
+  <rect x="520" y="50" width="220" height="50" rx="10" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
+  <text x="630" y="72" fill="#c7d2fe" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="middle">KNN (k=3, Euclidean)</text>
+  <text x="630" y="90" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="12" font-weight="600" text-anchor="middle">High Sweetness Predicted</text>
+</svg>

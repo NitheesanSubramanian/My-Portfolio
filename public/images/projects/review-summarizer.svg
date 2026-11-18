@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="revBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#revBg)" />
+  <!-- Main Phone Frame Outline -->
+  <rect x="250" y="40" width="300" height="370" rx="36" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <rect x="350" y="55" width="100" height="18" rx="9" fill="#0f172a" />
+  <!-- Screen Area -->
+  <rect x="270" y="85" width="260" height="305" rx="20" fill="#090d16" />
+  <text x="400" y="115" fill="#f8fafc" font-family="'Inter', sans-serif" font-size="13" font-weight="700" text-anchor="middle">Smartphone Review NLP</text>
+  <!-- Aspect Pills -->
+  <rect x="290" y="135" width="100" height="24" rx="12" fill="#065f46" />
+  <text x="340" y="151" fill="#34d399" font-family="'Inter', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Battery: 4.8★</text>
+  <rect x="400" y="135" width="110" height="24" rx="12" fill="#1e3a8a" />
+  <text x="455" y="151" fill="#60a5fa" font-family="'Inter', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Display: 120Hz</text>
+  <!-- Summary Box -->
+  <rect x="285" y="175" width="230" height="105" rx="10" fill="#1e293b" stroke="#334155" />
+  <text x="295" y="195" fill="#f59e0b" font-family="'Inter', sans-serif" font-size="11" font-weight="700">EXECUTIVE SUMMARY:</text>
+  <text x="295" y="215" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10">Outstanding battery endurance and vibrant</text>
+  <text x="295" y="230" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10">OLED panel. Minor thermal throttling</text>
+  <text x="295" y="245" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10">during peak 4K video rendering.</text>
+  <text x="295" y="265" fill="#22c55e" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Overall Sentiment: Positive (89%)</text>
+  <!-- Audio wave visual -->
+  <g stroke="#38bdf8" stroke-width="2" stroke-linecap="round">
+    <line x1="300" y1="330" x2="300" y2="350" />
+    <line x1="320" y1="320" x2="320" y2="360" />
+    <line x1="340" y1="310" x2="340" y2="370" />
+    <line x1="360" y1="325" x2="360" y2="355" />
+    <line x1="380" y1="300" x2="380" y2="380" />
+    <line x1="400" y1="315" x2="400" y2="365" />
+    <line x1="420" y1="305" x2="420" y2="375" />
+    <line x1="440" y1="325" x2="440" y2="355" />
+    <line x1="460" y1="310" x2="460" y2="370" />
+    <line x1="480" y1="320" x2="480" y2="360" />
+    <line x1="500" y1="330" x2="500" y2="350" />
+  </g>
+</svg>
